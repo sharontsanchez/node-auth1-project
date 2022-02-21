@@ -25,7 +25,7 @@ const router = require('express').Router()
   }
  */
 
-router.post('/register', (req, res, next) => {
+router.post('/register', (req, res, next) => { //eslint-disable-line
   res.json('register')
 })
 
@@ -46,7 +46,7 @@ router.post('/register', (req, res, next) => {
  */
 
 
-  router.post('/login', (req,res,next) => {
+  router.post('/login', (req,res,next) => { //eslint-disable-line
     res.json('login')
   })
 
@@ -68,7 +68,7 @@ router.post('/register', (req, res, next) => {
  */
 
 
-  router.get('/logout', (req,res,next) => {
+  router.get('/logout', (req,res,next) => { //eslint-disable-line
     res.json('logout')
   })
 
